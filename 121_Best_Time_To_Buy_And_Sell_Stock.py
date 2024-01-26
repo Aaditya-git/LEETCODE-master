@@ -1,6 +1,7 @@
 '''
 https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/1157520260/
 
+Problem : stock
 ''' 
 
 class Solution(object):
@@ -13,3 +14,4 @@ class Solution(object):
             if prices[i]-lowest > max_profit:
                 max_profit = prices[i]-lowest
         return max_profit
+
